@@ -1,0 +1,8 @@
+---
+default_container_name: spring-boot-web-application
+default_container_image: '192.168.100.36:5100/application/student-services-security:latest'
+container_restart: always
+container_port: 8084
+container_cpu_period: 100000
+container_memory: 1000M
+create_containers: 1

@@ -1,0 +1,6 @@
+[mymachine]
+192.168.100.36 ansible_ssh_pass=password
+
+[mymachine:vars]
+ansible_python_interpreter=/usr/bin/python3
+#ansible_python_interpreter=/usr/bin/python
